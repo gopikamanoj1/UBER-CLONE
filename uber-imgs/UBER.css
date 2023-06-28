@@ -1,0 +1,121 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    
+}
+nav .right{
+    display: flex;
+}
+nav .left{
+    display: flex;
+}
+.left img{
+    margin-top: -11px;
+    width: 100%;
+    height: 80px;
+   
+}
+.left p{
+    margin-inline: 22px;
+    margin-top: 25px;
+
+}
+.right p{
+    margin-inline: 22px;
+    margin-top: 25px;
+
+}
+.right i{
+    margin-top: 22px;
+    font-size: 22px;
+}
+.right button{
+    width: 80px;
+    height: 36px;
+    background: #fff;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    margin-top: 12px;
+
+}
+.right button:hover{
+background:transparent;
+color: white;
+border: 2px solid white;
+
+}
+.card {
+    background-image:url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1098,h_618/v1613521717/assets/7a/fd8982-6884-49b9-bb5f-28e6ff2cc0e8/original/Rider_Home_bg_tablet.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    
+}
+.main{
+    width: 400px;
+    height: 400px;
+    margin-left: 44px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(224, 223, 223);
+
+}
+.main .icon{
+    display: flex;
+    justify-content: center;
+  
+
+}
+.main .icon .car{
+    margin-inline: 44px;
+    margin-top: 31px;
+    border-bottom: 1px solid black;
+}
+.icon .car i{
+    font-size: 153%;
+
+
+}
+.card h1{
+    padding: 33px;
+    font-size: 33px;
+
+}
+.card input{
+    width: 330px;
+    height: 30px;
+    background-color: rgb(223, 218, 218);
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    margin-left: 33px;
+
+}
+
+
+.card .btn{
+    margin-left: 33px;
+    margin-top: 44px;
+
+}
+.card .btn button{
+      width: 140px;
+      height: 36px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+
+}
+.card .btn .btn2{
+    color: black;
+    background-color:rgb(224, 220, 220);
+}
